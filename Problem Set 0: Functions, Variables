@@ -1,1 +1,2 @@
-
+indoor_voice = input(" ")
+print(indoor_voice.lower())
