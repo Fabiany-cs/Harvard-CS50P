@@ -1,16 +1,43 @@
 # Deep Thought
+def main ():
+    question = answer(input("What is the Answer to the Great Question of Life, the Universe, and Everything? "))
+    print(question)
+
+def answer(q):
+    q = q.lower().strip()
+    if q == "42" or "forty-two" or "forty two":
+        return "Yes"
+    else:
+        return "No"
+
+main()
 
 
 
 
 
 # Home Federal Savings Bank
+def main ():
+    question = money(input("Greeting: ").lower().strip())
+    print(f"${question}")
+
+
+def money(m):
+    if m.startswith("hello"):
+        return 0
+    elif m.startswith("h"):
+        return 20
+    else:
+        return 100
+
+main()
 
 
 
 
 
 # File Extensions
+
 
 
 
