@@ -1,2 +1,92 @@
+# Indoor Voice
 indoor_voice = input(" ")
 print(indoor_voice.lower())
+
+
+
+
+
+# Playback Speed
+speed = input("")
+print(speed.replace(" ","..."))
+
+
+
+
+
+# Making Faces
+def main():
+    message = input()
+    result = convert(message)
+    print(result)
+
+def convert(message):
+    message1 = message.replace(":)", "🙂")
+    message2 = message1.replace(":(", "🙁")
+    return message2
+
+main()
+_______________________________________  OR
+
+def convert(message):
+    message1 = message.replace(":)","🙁").replace(":(","🙂")
+    return message1
+
+def main():
+    message = input("Enter Message: ")
+    call = convert(message)
+    print(call)
+
+main()
+
+
+
+
+
+# Einstein
+mass = int(input("M: "))
+C = 300000000
+E = mass * (C ** 2)
+
+print(f"E: {E}")
+
+
+# E = Energy in Joules
+# M = Mass in kgs
+# C = Speed of Light (300000000 meters per second)
+
+
+
+
+
+
+# Tip Calculator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
