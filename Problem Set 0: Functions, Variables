@@ -28,14 +28,14 @@ def convert(message):
 main()
 _______________________________________  OR
 
-def convert(message):
-    message1 = message.replace(":)","🙁").replace(":(","🙂")
-    return message1
-
 def main():
     message = input("Enter Message: ")
     call = convert(message)
     print(call)
+
+def convert(message):
+    message1 = message.replace(":)","🙁").replace(":(","🙂")
+    return message1
 
 main()
 
@@ -44,17 +44,14 @@ main()
 
 
 # Einstein
+    # E = Energy in Joules
+    # M = Mass in kgs
+    # C = Speed of Light (300000000 meters per second)    
 mass = int(input("M: "))
 C = 300000000
 E = mass * (C ** 2)
 
 print(f"E: {E}")
-
-
-# E = Energy in Joules
-# M = Mass in kgs
-# C = Speed of Light (300000000 meters per second)
-
 
 
 
@@ -79,32 +76,3 @@ def percent_to_float(p):
     return p
 
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
